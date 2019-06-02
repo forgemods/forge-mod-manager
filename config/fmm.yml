@@ -1,0 +1,6 @@
+---
+
+curseforge:
+  api:
+    token: this-is-not-a-real-curseforge-token
+    base_url: https://minecraft.curseforge.com/api/

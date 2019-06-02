@@ -1,0 +1,163 @@
+---
+
+pack:
+  name: Knap your Packsack
+  version: 1.0.0
+  forge_version: 14.23.5.2823
+  minecraft_version: 1.12.2
+  java_version: 1.8
+  icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH3wIBDRQc37coFgAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAEG0lEQVR42u2du09UQRSH7+z7HSWbICKEZJUEX1E6GxMttLR0bUwsbS3sjZXGSv8HY2UsKJS/AAowsaDQYDC85LGyLPu6u3vvWFnY/IZkFyX6fe1h7ouPIefMmXuNtdaD/5cIjwABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAHgXyR21Ce4MxyTDQdft+NyfMZx/A0vlPG015Px6VNGxue+60d0xuh+ioqj36LgRWV83rYMMwAgACAAIAAgACAAIAAMCNPvvoDyiM7zXz4syfGvP6zJeK0RyHgv0HWEfKbjGJ+Q8etXizI+O1+R8SefajKPL0Ui8vmVTEqfP2gaZgBAAEAAQABAAEAAQAA4JM5+gDGTlHnq4rMrcvxqXefxt6dPyvi7hQMZL98cl/GdrR0Zb8UKMl7o7sn43GpdxqcSumFgObR91QkmTErGV2zbMAMAAgACAAIAAgACAALAYesAmbTuq+8a3ZdfzOj19mo7K+P33q7LeO2Vvr6hiQkZT9iujG8ubv7VX1DH6n6HhOkwAwACAAIAAgACAAIAAsBhce4LcO3vN0a3pYeh7gd48eiaznN9vR6/sLQr48/f/5DxyYKuY4zlkjL+rabHf9zVdYolP5APcNJE5fNvOUo5q9anHwAQABAAEAAQABAAEAB+4ewHqPo6z717Pi/jQVo7Vn46L+M3xtMyPuvoy79/QfcjZKNZx/3rPD6o6n6Cgz7f8tc64lc5MgPwLwAQABAAEAAQABAAqAP8lofqMoB3elS/x67e1Acon9Pj33xpyfiDy7pOMFLQiXg+q/shGuu6DtDW2/u9aNjfL8j1vYPAWGYAQABAAEAAQABAAEAAGFgdYDSn96eXRnU/QGW/LeNTRR2/Na2PX2/qPDjp6etP5fT9b+zo9f5OT58/Y/orBEQd3xVsWcMMAAgACAAIAAgACAAIAAOrA2SSOg8NHPv/81bHE3HdD+B1HceP6zz7oKHrDMmO/l5ANKLvv9NxfNfQ09fn2v8/6el9CzO2xncDAQEAAQABAAEAAQABYGB1gJV93Zfvb+n18qqvxw8n9Hjf6DpB6Ni4UHX0IySszvMjjvX+dFJf/wlPp+mVrj7+TFgzzACAAIAAgACAAIAAgADwp+oA6/Wo4yd0nt+q6Ty36sijrdXv+Wv5enwQ6vcHBIFez6/VA8f59b6DWKjrFMthzzADAAIAAgACAAIAAgACwHGpA6x0dJ76+GJKJvpnszoP3m7o8+ccL9qLOsoUu02dx681HQ8gqf9GYoEv46FlBgAEAAQABAAEAAQABIBjg7H2aBPVSzn9QvuhmF4Oj+nt814Q6kJAMa7jvYiuMyzt9fq6/8++NcwAgACAAIAAgACAAIAA8L/UAYAZABAAEAAQABAAEAAQAI4NPwGvIhkpLqcrIAAAAABJRU5ErkJggg=="
+mods:
+  - mod: tesla-core-lib
+    version: 1.0.15.13
+  - mod: integration-foregoing
+  - mod: dank-null
+  - mod: actually-additions
+  - mod: applied-energistics-2
+  - mod: aroma1997s-dimensional-world
+  - mod: astral-sorcery
+  - mod: biomes-o-plenty
+  - mod: blockcraftery
+  - mod: bookshelf
+  - mod: botania
+  - mod: brandons-core
+  - mod: building-gadgets
+  - mod: chisel
+  - mod: chisels-bits
+  - mod: codechicken-lib-1-8
+  - mod: cofhcore
+  - mod: cofh-world
+  - mod: compact-solars
+  - mod: ctm
+  - mod: cooking-for-blockheads
+  - mod: crafttweaker
+  - mod: cyclops-core
+  - mod: dark-utilities
+  - mod: deep-resonance
+  - mod: default-options
+  - mod: draconic-evolution
+  - mod: ender-io
+  - mod: endercore
+  - mod: environmental-tech
+  - mod: exchangers
+  - mod: extra-utilities
+  - mod: fastfurnace
+  - mod: foamfix-for-minecraft
+  - mod: forestry
+  - mod: ftb-utilities
+  - mod: ftblib
+  - mod: immersive-engineering
+  - mod: industrial-craft
+  - mod: industrial-foregoing
+  - mod: integrated-dynamics
+  - mod: jei
+  - mod: journeymap
+  - mod: mantle
+  - mod: mcjtylib
+  - mod: mcmultipart
+  - mod: modtweaker
+  - mod: mouse-tweaks
+  - mod: mysticallib
+  - mod: not-enough-wands
+  - mod: p455w0rds-library
+  - mod: pams-harvestcraft
+  - mod: placebo
+  - mod: pneumaticcraft-repressurized
+  - mod: reborncore
+  - mod: redstone-arsenal
+  - mod: redstone-flux
+  - mod: refined-storage
+  - mod: refined-storage-addons
+  - mod: rftools
+  - mod: rftools-dimensions
+  - mod: shadowfacts-forgelin
+  - mod: simply-jetpacks-2
+  - mod: thaumcraft
+  - mod: thaumic-jei
+  - mod: the-lost-cities
+  - mod: the-one-probe
+  - mod: the-twilight-forest
+  - mod: thermal-cultivation
+  - mod: thermal-dynamics
+  - mod: thermalexpansion
+  - mod: thermal-foundation
+  - mod: thermal-innovation
+  - mod: top-addons
+  - mod: unidict
+  - mod: valkyrielib
+  - mod: wanionlib
+  - mod: wireless-crafting-terminal
+  - mod: xnet
+  - mod: blood-magic
+  - mod: waystones
+  - mod: psi
+  - mod: thaumcraft-inventory-scanning
+  - mod: thaumic-tinkerer
+  - mod: the-erebus
+  - mod: embers-rekindled
+  - mod: the-erebus
+  - mod: thaumic-energistics
+  - mod: thaumic-computers
+  - mod: opencomputers
+  - mod: fancy-lamps
+  - mod: thaumic-restoration
+  - mod: consecration
+  - mod: bloodmoon
+  - mod: openblocks-elevator
+  - mod: wireless-redstone-cbe
+  - mod: extra-rails
+  - mod: iron-chests
+  - mod: storage-drawers
+  - mod: bibliocraft
+  - mod: mekanism
+  - mod: extracells2
+  - mod: compact-machines
+  - mod: rustic
+  - mod: translocators-1-8
+  - mod: tinkers-construct
+  - mod: ae2-stuff
+  - mod: flux-networks
+  - mod: railcraft
+  - mod: advanced-generators
+  - mod: tinkers-mechworks-fork
+  - mod: reactor-stuff
+  - mod: dynamictrees
+  - mod: additional-structures
+  - mod: betteranimalsplus
+  - mod: dtbop
+  - mod: dttc
+  - mod: worleys-caves
+  - mod: pirates
+  - mod: tinkers-tool-leveling
+  - mod: lootbags
+  - mod: roguelike-dungeons
+  - mod: hats
+  - mod: the-aether-ii
+  - mod: rough-mobs-2
+  - mod: rustic-thaumaturgy
+  - mod: oreberries
+  - mod: metamorph
+  - mod: dtphc
+  - mod: weeping-angels-mod
+  - mod: angry-pixel-the-betweenlands-mod
+  - mod: autoreglib
+  - mod: zerocore
+  - mod: cucumber
+  - mod: infinitylib
+  - mod: guide-api
+  - mod: notenoughids
+  # Had to downgrade project-red due to collision with `angry-pixel-the-betweenlands-mod`
+  - mod: project-red-base
+    version: 4.9.0.86
+  - mod: project-red-integration
+    version: 4.9.0.86
+  - mod: project-red-fabrication
+    version: 4.9.0.86
+  - mod: project-red-mechanical
+    version: 4.9.0.86
+  - mod: project-red-lighting
+    version: 4.9.0.86
+  - mod: project-red-world
+    version: 4.9.0.86
+  - mod: project-red-compat
+    version: 4.9.0.86
