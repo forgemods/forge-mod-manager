@@ -1,11 +1,12 @@
-package pack
+package forge
 
 import (
-	"github.com/forgemods/forge-mod-manager/tools/all_curseforge_mods/command/launcher/config"
+	"github.com/forgemods/forge-mod-manager/command/launcher/config"
+	"github.com/forgemods/forge-mod-manager/command/launcher/install/pack"
 )
 
 func init() {
-	VersionJSONMap["forge-14.23.5.2823"] = &config.InheritedVersion{
+	pack.VersionJSONMap["forge-14.23.5.2823"] = &config.InheritedVersion{
 		ID:                 "forge-14.23.5.2823",
 		Time:               "2019-03-22T16:53:53+0000",
 		ReleaseTime:        "2019-03-22T16:53:53+0000",
@@ -15,7 +16,7 @@ func init() {
 		InheritsFrom:       "1.12.2",
 		Jar:                "1.12.2",
 		Logging:            map[string]*config.LoggingConfig{},
-		Libraries: []*config.Library{
+		Libraries: []*config.Dependency{
 			{
 				Name: "net.minecraftforge:forge:1.12.2-14.23.5.2823",
 				Downloads: &config.DownloadInfo{

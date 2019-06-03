@@ -1,11 +1,26 @@
 package all
 
 import (
+	"fmt"
 	"github.com/PuerkitoBio/goquery"
 	"log"
 	"net/http"
 	"strings"
 )
+
+var realLinkClient = &http.Client{
+	CheckRedirect: func(req *http.Request, via []*http.Request) error {
+		return http.ErrUseLastResponse
+	},
+}
+
+func getRealDownloadLink(path string) string {
+	if resp, err := realLinkClient.Get(fmt.Sprintf("https://minecraft.curseforge.com%s", path)); err == nil {
+		return resp.Header.Get("Location")
+	}
+
+	return ""
+}
 
 func GetFileList(project string, doc *goquery.Document) (list []*ModFile) {
 	doc.Find(".project-file-listing tr.project-file-list-item").Each(func(i int, s *goquery.Selection) {
@@ -14,6 +29,8 @@ func GetFileList(project string, doc *goquery.Document) (list []*ModFile) {
 		fileName := strings.Trim(s.Find(".project-file-name .project-file-name-container").Text(), " \t\n\r")
 		fileSize := strings.Trim(s.Find(".project-file-size").Text(), " \t\n\r")
 		uploadTime := s.Find(".project-file-date-uploaded abbr.standard-date").AttrOr("data-epoch", "")
+
+		downloadURL = getRealDownloadLink(downloadURL)
 
 		if uploadTime == "" {
 			uploadTime = strings.Trim(s.Find(".project-file-date-uploaded").Text(), " \t\n\r")

@@ -1,6 +1,6 @@
 package pack
 
-import "github.com/forgemods/forge-mod-manager/tools/all_curseforge_mods/command/launcher/config"
+import "github.com/forgemods/forge-mod-manager/command/launcher/config"
 
 var VersionJSONMap = map[string]*config.InheritedVersion{}
 
